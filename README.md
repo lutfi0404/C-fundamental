@@ -23,13 +23,11 @@ Repo ini cocok buat siapa aja yang mau belajar dari dasar sampai konsep modern C
 
 ## 📘 Contoh Kode Keren
 
-### Hello World (gaya modern)
+### halo masalah hidup (gaya sederhana)
 ```cpp
 #include <iostream>
-#include <string>
-
+using namespace std;
 int main() {
-    std::string name = "C++";
-    std::cout << "Hello, " << name << " World! 💸\n";
+   cout<<"halo masalah hidup"<<endl;
     return 0;
 }
